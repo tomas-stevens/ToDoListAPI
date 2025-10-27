@@ -1,0 +1,18 @@
+﻿@ToDoListAPI_HostAddress = https://localhost:7195
+
+GET {{ToDoListAPI_HostAddress}}/todos
+
+###
+
+GET {{ToDoListAPI_HostAddress}}/todos/complete
+
+###
+
+POST {{ToDoListAPI_HostAddress}}/todos
+Content-Type: application/json
+
+{
+
+}
+
+###
